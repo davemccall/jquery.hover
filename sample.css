@@ -1,0 +1,35 @@
+body {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 17px;
+	line-height: 1.6em;
+}
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+.hover {
+  border-bottom: 1px dotted black;
+}
+.hover-text {
+	display: inline-block;
+	position: absolute;
+	background: #ebeaee;
+	border-radius: .4em;
+	padding: 10px;
+	font-size: .85em;
+}
+.hover-text:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #ebeaee;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
